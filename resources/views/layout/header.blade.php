@@ -15,20 +15,20 @@
             <!-- Right: Header buttons -->
             <div class="-mr-1.5 flex items-center space-x-2">
                 <!-- Mobile Search Toggle -->
-                @include('layouts.mobilesearch')
+                @include('layout.mobilesearch')
 
 
 
                 <!-- Dark Mode Toggle -->
-                @include('layouts.darkmode')
+                @include('layout.darkmode')
                 <!-- Monochrome Mode Toggle -->
-                @include('layouts.Monochrome')
+                @include('layout.Monochrome')
 
                 <!-- Notification-->
-                @include('layouts.Notification')
+                @include('layout.Notification')
 
                 <!-- Right Sidebar Toggle -->
-                @include('layouts.rightsidebar')
+                @include('layout.rightsidebar')
             </div>
         </div>
     </div>

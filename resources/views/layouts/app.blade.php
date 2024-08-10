@@ -39,10 +39,10 @@
     <!-- Page Wrapper -->
     <div id="root" class="min-h-100vh flex grow bg-slate-50 dark:bg-navy-900" x-cloak="">
         <!-- Sidebar -->
-        @include('layouts.sidebar')
+        @include('layout.sidebar')
 
         <!-- App Header Wrapper-->
-        @include('layouts.header')
+        @include('layout.header')
 
 
         <!-- Main Content Wrapper -->
